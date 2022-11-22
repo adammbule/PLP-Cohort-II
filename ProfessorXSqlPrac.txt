@@ -1,0 +1,15 @@
+\sql
+\connect
+# create table with the name persondb
+create table persondb (
+    PersonId int(8) not null,
+    First_name varchar(20) not null,
+    Last_Name varchar(20) not null,
+    Phone_No int(10) not null,
+    date_Ob date
+);
+
+#Insert to persondb
+insert into persondb(PersonId, First_name, Last_Name, Phone_No, date_Ob) values(12, 'Enock', 'Mane', 0876545871, '2021-01-06),
+(1, 'Norbert', 'mpala', 5138547892, '1997-10-04);
+)

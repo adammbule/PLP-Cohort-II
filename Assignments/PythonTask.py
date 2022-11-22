@@ -51,3 +51,20 @@
 #If the index is out of range, the program should print "i is out of range"
 
 #If the string is empty, the program should print "Empty String"
+print("Printing Values from the list.")
+#Declare the list of values
+User_String = input("What is your string?")
+#Print the value
+
+#counter
+String_Length = len(User_String)
+counter = 0
+#While loop for the counter
+while counter < String_Length:
+    print("counting your string value...", String_Length)
+    counter = counter + 1
+print("'",User_String,"'",String_Length,",",String_Length, "because it has", String_Length, "characters")
+
+
+
+
