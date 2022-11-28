@@ -1,0 +1,4 @@
+First store the code in github
+Generate link
+Share the linkAutomation & CI/CD on github
+Name repo with one name
