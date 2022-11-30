@@ -13,3 +13,45 @@ create table persondb (
 insert into persondb(PersonId, First_name, Last_Name, Phone_No, date_Ob) values(12, 'Enock', 'Mane', 0876545871, '2021-01-06),
 (1, 'Norbert', 'mpala', 5138547892, '1997-10-04);
 )
+
+#11/29/2022
+create database marketdb;
+
+create table product (
+    product _id int(8),
+    product_name varchar(25),
+    quantity int(6)
+    );
+
+use marketdb then run command ifdb already exists
+alter table product
+add price int(8);
+-------------------------
+alter table product
+modify price decimal(7,2); -----edit the column to allow decimal points
+
+---------------------------
+alter table product
+drop column quantity;
+-----------------------------
+create table customer (
+    id int(8) not null,
+    name varchar(20),
+    phone_num int(10)
+    );
+--------
+show tables
+drop table product;
+show databases
+drop table products;
+------
+SELECT First_name from employees;
+Select * from employees;
+---------
+select email, employeenumber, lastname from employees; 
+
+---------------------------
+ARITHMETIC OPERATIONS-----this tasks are static/temporarily
+select product_name, buyprice + 10 (-20 or * 2 or / 2)
+from products;
+select product_name, 5*(buyprice + 20);
