@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 .home {
-    background-color: black;
+    background-color: rgb(57, 67, 209);
     min-height: 70vh;
 }
 .home-img {
