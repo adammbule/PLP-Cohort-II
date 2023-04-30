@@ -3,7 +3,7 @@ void myName(firstName, lastName){
 }
 //Print my full name function
 void main( {
-  myName("Eric", "Muriithi");
+  myName("Adam", "Mbule");
 })
 
 //Question 5
